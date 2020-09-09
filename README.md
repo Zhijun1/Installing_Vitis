@@ -67,52 +67,44 @@ Step-by-Step Instructions
 7. Prior to installing the Xilinx RunTime we need to install the following packages by running the commands: 
 
  
-
+```
 sudo apt-get install ocl-icd-libopencl1
 
 sudo apt-get install opencl-headers
 
 sudo apt-get install ocl-icd-opencl-dev
-
+```
 
 8. Install the Xilinx RunTime using the command:
 
-
+```
 sudo apt install ./xrt_202010.2.6.655_18.04-amd64-xrt.deb
-
+```
 
 9. Using a terminal window in the opt/xilinx directory make a directory called platforms with the command: 
 
  
-
+```
 sudo mkdir platforms
-
+```
  
 
 10. Copy the downloaded platform file from the downloads directory into the newly created /opt/xilinx/platforms directory – if the terminal PWD (present working directory) is downloads the command is:
 
-
+```
 sudo cp xilinx_zcu104_base_202010_1.zip /opt/xilinx/platforms
-
+```
 In this example, I have used the ZCU104, but you should see the platform you downloaded. 
 
- 
-
-
 11. In the platforms directory unzip the compressed file using the command:
-
- 
-
+```
 sudo unzip -g xilinx_zcu104_base_202010_1.zip 
+```
 (This might take a few minutes) 
 
 
- 
-
 12. Download the ZynqMP common image from the Xilinx website.
 
-
- 
 
 13. Extract the downloaded ZynqMP common image into a directory 
 
