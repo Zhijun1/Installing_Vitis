@@ -103,80 +103,51 @@ sudo unzip -g xilinx_zcu104_base_202010_1.zip
 (This might take a few minutes) 
 
 
-12. Download the ZynqMP common image from the Xilinx website.
+12. Download the <a href="https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-platforms.html"> ZynqMP common image </a> from the Xilinx website.
 
 
 13. Extract the downloaded ZynqMP common image into a directory 
 
- 
-
-
-
- 
 
 14. In a file browser open the location of the extracted ZynqMP common image files
 
- 
+
+15. Select the file ###rootfs.ext4.gz### and extract this file into the same directory
 
  
-
-15. Select the file rootfs.ext4.gz and extract this file into the same directory
-
- 
-
-
- 
-
 16. Open a terminal window in the extracted ZynqMP common image directory and generate the SDK using the command:
 
- 
-
+```
 sudo ./sdk.sh 
- 
+```
 
 17. Select the desired directory for the SYSROOT
 
- 
 
+18. In a terminal window navigate to ###tools/Xilinx/Vitis/2020.1### and run the settings64.sh command:
 
-
- 
-
-18. In a terminal window navigate to tools/Xilinx/Vitis/2020.1 and run the settings64.sh command:
-
-
+```
 source settings64.sh 
-
+```
 
 19. In the same terminal window as the setting script was source enter the command:
 
- 
-
+ ```
 Vitis
- 
+ ```
 
 
 20. This will open the Vitis IDE. As part of the loading process it will ask you the workspace you wish to work in. Select the directory you wish to use as your workspace.
 
 
- 
-
 21. Once Vitis opens select Create Application Project 
-
-
- 
 
 
 22. When the new project dialog appears click on Next
 
 
-
-
 23. On the platform dialog you should see the platform you have just installed 
 
-
-
- 
 
 Congratulations! You now have Vitis and an acceleration capable platform installed and are ready to begin your development journey. 
 
