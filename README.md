@@ -3,6 +3,8 @@ This article is about how to install Vitis 2020.1
 
 Requirements for Installing Vitis
 
+---
+
 Linux machine or virtual machine using the following Linux 64-bit operating systems 
 
 		RHEL/CentOS 7.4, 7.5, and 7.6
