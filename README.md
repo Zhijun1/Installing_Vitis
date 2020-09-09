@@ -48,18 +48,18 @@ Step-by-Step Instructions
  
 
 
-5. The next step is to download the Xilinx RunTime from the Xilinx website. Please make sure you get the correct embedded (ZCU104 / Ultra96) or cloud (Alveo) XRT. Also make sure it is the correct XRT for your operating system.
+5. The next step is to download the <a href="https://www.xilinx.com/products/design-tools/vitis/xrt.html#gettingstarted"> Xilinx RunTime </a> from the Xilinx website. Please make sure you get the correct embedded (ZCU104 / Ultra96) or cloud (Alveo) XRT. Also make sure it is the correct XRT for your operating system.
 
  
 
 
 6.  Download your platform from the links below:
 
-ZCU104 
+<a href="https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-platforms.html"> ZCU104 </a> 
 
-Alveo 
+<a href="https://www.xilinx.com/products/boards-and-kits/alveo/u50.html#gettingStarted"> Alveo </a> 
 
-Ultra96
+<a href="https://www.youtube.com/redirect?v=9Jx-Guvl52U&redir_token=QUFFLUhqbFdTdkNNUExjc3JIQ2ltTndSNmdJQmZITnZFUXxBQ3Jtc0treHU3SjVYYTkxNWlzX1FtR1dZbE1FTGk5dXcxZTdRUF9rXzBvTTF0LW5lc1hhN292NFl4TVhiWVVDZEpmOE14R3dES0ZBbzlpZ2UwSENLenVJVjlEc21KSTFrUkJWX2ttakZCRTVLY1RKWTBsbkRacw%3D%3D&q=http%3A%2F%2Fdownloads.element14.com%2Fdownloads%2Fzedboard%2Fultra96-v2%2FULTRA96V2_2019_2.tar.xz%3FICID%3Dultra96v2-datasheet-widget&event=video_description"> Ultra96 </a>
 
  
 
