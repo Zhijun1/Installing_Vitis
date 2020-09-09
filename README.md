@@ -37,9 +37,10 @@ Step-by-Step Instructions
 
 3. Install the Vitis software using the root privileges with the command:
 
+ ```
  sudo ./Xilinx_unified_2020.1_0602_1208_Lin64.bin 
 
-
+```
 
 4. Once the Vitis Installation is complete Vitis will be available under the directory 
 
