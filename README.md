@@ -24,7 +24,7 @@ Step-by-Step Instructions
 
  
 
-1. Download Vitis 2020.1 from the Xilinx website.
+1. Download <a href="https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vitis.html">  Vitis 2020.1 </a> from the Xilinx website.
 
  
 
@@ -37,9 +37,8 @@ Step-by-Step Instructions
 
 3. Install the Vitis software using the root privileges with the command:
 
- 
+ sudo ./Xilinx_unified_2020.1_0602_1208_Lin64.bin 
 
-sudo./Xilinx_unified_2020.1_0602_1208_Lin64.bin 
 
 
 4. Once the Vitis Installation is complete Vitis will be available under the directory 
