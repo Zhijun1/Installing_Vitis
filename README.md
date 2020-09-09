@@ -112,7 +112,7 @@ sudo unzip -g xilinx_zcu104_base_202010_1.zip
 14. In a file browser open the location of the extracted ZynqMP common image files
 
 
-15. Select the file ###rootfs.ext4.gz### and extract this file into the same directory
+15. Select the file rootfs.ext4.gz and extract this file into the same directory
 
  
 16. Open a terminal window in the extracted ZynqMP common image directory and generate the SDK using the command:
